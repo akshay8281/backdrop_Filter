@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      div.background {
+        background: lightblue
+          url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAH8A1wMBIgACEQEDEQH/xAAbAAEBAQEBAQEBAAAAAAAAAAABAgADBAUGB//EADAQAAICAAQDBwIGAwAAAAAAAAABAhEDEiExBEFRBQYiMmFxsRMUYoGCkaHBFUJy/8QAGAEBAQEBAQAAAAAAAAAAAAAAAAECBAP/xAAgEQEAAgIBBAMAAAAAAAAAAAAAAQIDERIhMVGBBBPh/9oADAMBAAIRAxEAPwD+QOOb3JTp0yjNJr1Oh5LTsTlBtbnVaiBqIejOgSWllQI548bjm6fBaGrWpBwiWiKytroUhCrFbgK3KyRAShWwghAUIDyARQIUAigFAUhRJSAy3EBAxjGA+dFiiF4XRZlppK9txhIwSVaoDqtR3VExdooCEtzDNcyUVEYyqSl1BHTEWaDOUdiDoK3JQlRQgjCBSElFIoTIyMgFFIkUBQoNxARJFAUYDAIgYDwTX7gmdPMs3PZnKSpmWliShA0fDodU9Dk1fuVBgXJWiFsdEc5aMqE4NVJo7IjFWqkQZCShRUWjAhEBGwEoRAQESRApMUSNgUZAYChJMBRibowHli6d1o90aceW6BMqOsa5rYy05J06LRM1zGLsCgejUkZCB0i7QTVq+hMXTrkdd0ByTCauLGsroxUckykTJUxTApFEjYQoQFFgKFMkpAIkiAiBgKQ2QIFWDlRLdESk26RJkLm3KlqwP03d/u1HE4X/ACHasvo8I14FKWRzvm3yXTqY5L/MxVtNZ36dNPi3tXeoflBTadrdEidTnXKtGlozk1lfodIvdPZ/wEo6tMKEyjmm06ZaAp6/kMZEpm9gOmIrja3RCKhK0TNU/QojEVqyUdPc5tUwikKJQhFmBMQESRKKMBgKMCEBM3RNkSdtJatk2ujJ26W7P1ndLu7gzwH2x2zlwuz8JZ4qeixa5v8AD8/Pz+7vZGHxE/ueOyx4TDdvNp9Sv66ld6O8U+1JR4Xhm8PgMLywjosRrZtdFyRx5clslvqxzrzPj9dGOkUjnf1HlPejvBPtnicuGnh8HhtrDw9s34mvjoY+Go5tWB0UxUx1itY6PG+SbTuXMSRRtCXF5lle68rIRkAzVrbUiNrRnW8/PxfJEo5vyAUxOd0UmBXP1Lu1ruQYDNUyZK16l3m0e4XT1KOaKCUeaNEIoUyRCKElCAmASwFGbBuiJS/kimUum59DsrgPuMTPjPLgx8z6+iPPwfDfVlc21Fbv+kduN45zh9tw3hwlo2ufoc+S9rTwp3e2OlYjlfs9HbHav1ofacL4eGjpUf8Ab09j5kIc5bmjHL6lHrixVx14wxkyTktuSYLMejzeUQMjDSjAJQlpqbSk6lyZzEIZRp00c2mjopNKqtdBccy8DtdOaCoTKTJyoNUB05A9tSVIrMAXyJe+hTV7A21utAMhRF0KkEUUmRZsxTTpYOVHJzBKU9tgaW5NuludMGEfNN0upMMOkdKW7Rm0TPRqNQvExZTgoRqMOiJVLZGs2gpWKxqEtabTuTYGA3tkmAw2PMKJEw0RJGyijAYITJ1qtwMB0zp+dfqW5nC1cWpfJBr1Cs4/uGqOixG9JJSXqZZJNpNxfTco55hzFTw5RVvbqRXQgXFPbQ5yhJbPQrVDmaAhf9MuMEa094mro2gOijBbLUo46oVNhJdTHPMUmUUYDANmAwQmCzF0P//Z)
+          no-repeat center;
+        background-size: cover;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        height: 400px;
+        width: 400px;
+      }
+
+      div.transbox {
+        background-color: rgba(255, 255, 255, 0.4);
+        -webkit-backdrop-filter: blur(5px);
+        backdrop-filter: blur(50px);
+        padding: 20px;
+        margin: 30px;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>The backdrop-filter Property</h1>
+
+    <div class="background">
+      <div class="transbox">
+        <p>backdrop-filter: blur(5px)</p>
+      </div>
+    </div>
+  </body>
+</html>
